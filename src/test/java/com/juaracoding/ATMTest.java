@@ -10,7 +10,7 @@ public class ATMTest {
 
     // Inisialisasi objek ATM dengan saldo awal 1000
     @BeforeMethod
-    public void setUP(){
+    public void setUp(){
         atm = new ATM(1000);
     }
 
